@@ -1,0 +1,32 @@
+/* What are some common style properties? */
+
+/* 
+Colors - color; background-color; border-color;
+Sizes - font-size; border-width; width; height;
+Sizes - padding; margins; border;
+Borders - border-style; border-width; border-color;
+Text - color; font-size; font-weight; font-family;
+Positions - TBC.
+*/
+
+/* Units: */
+
+/* 
+
+px - exact (e.g., 24px)
+cm - exact 
+mm - exact 
+em - relative units (e.g., 1.5em)
+rem - relative units
+% - relative units
+
+
+*/
+
+
+.box {
+    background-color: purple;
+    padding: 10px;
+    border: 25px solid lightcoral;
+    margin: 10px;
+}
