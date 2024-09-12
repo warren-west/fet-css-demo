@@ -1,0 +1,64 @@
+.unique {
+    float: inline-end;
+}
+
+.transparent {
+    filter: opacity(50%);
+}
+
+.nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Nerko One", cursive;
+    font-size: 3rem;
+}
+
+.icon-size {
+    font-size: xx-large;
+}
+
+.home-button {
+    background-color: #909857;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a:hover {
+    background-color: antiquewhite;
+    color: #642856;
+}
+
+nav ul {
+    padding: 10px;
+    background-color: #642856;
+    border-radius: 6px;
+}
+
+.effect {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s, transform 1s;
+    transition-timing-function: ease-out;
+}
+
+.effect:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
